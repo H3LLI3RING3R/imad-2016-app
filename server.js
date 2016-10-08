@@ -22,6 +22,14 @@ app.get('/a1', function (req, res) {
   res.send('It will be served');
 })
 
+app.get('/a2', function (req, res) {
+  res.send('It will be served');
+})
+
+app.get('/a3', function (req, res) {
+  res.send('It will be served');
+})
+
 
 
 
