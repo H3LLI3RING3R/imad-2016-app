@@ -19,7 +19,7 @@ app.get('/ui/madi.png', function (req, res) {
 
 
 app.get('/a1', function (req, res) {
-  res.sendFile('It will be served');
+  res.send('It will be served');
 })
 
 
