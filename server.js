@@ -24,7 +24,7 @@ app.get('/a1', function (req, res) {
 });
 
 app.get('/a2', function (req, res) {
-   res.sendFile(path.join(__dirname, 'imad-2016-app', 'a1.html'));
+   res.sendFile(path.join(__dirname, '', 'a1.html'));
 
 });
 
