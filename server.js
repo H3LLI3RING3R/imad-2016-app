@@ -21,15 +21,15 @@ app.get('/ui/madi.png', function (req, res) {
 app.get('/a1', function (req, res) {
     res.sendFile(path.join(__dirname, 'ui', 'a1.html'));
  
-})
+});
 
 app.get('/a2', function (req, res) {
   res.send('It will be served');
-})
+});
 
 app.get('/a3', function (req, res) {
   res.send('It will be served');
-})
+});
 
 
 
