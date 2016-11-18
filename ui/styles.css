@@ -21,7 +21,11 @@ div {
 	color: yellow;
 }
 
-
+h3 {
+	margin-left: 5px;
+	margin-bottom: 15px;
+	font-family: Verdana, sans-serif;
+}
 
 h4 {
 	margin-left: 5px;
