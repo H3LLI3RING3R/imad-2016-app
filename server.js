@@ -29,7 +29,7 @@ app.get('/ui/madi.png', function (req, res) {
 
 
 app.get('/a1', function (req, res) {
-    res.sendFile(path.join(__dirname, 'ui', 'krk.html'));
+    res.sendFile(path.join(__dirname, 'ui', 'article1.html'));
  
 });
 
