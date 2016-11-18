@@ -52,26 +52,6 @@ var articles ={
     }
 };
 
-var content = {
-    
-    title:'Article 1',
-    heading:"Article:1",
-    date:"Nov. 11 2016",
-    content:`
-     <p>
-              This is the content for the article 1.
-          </p>
-    
-     <p>
-              This is the content for the article 1.
-          </p>
-    <p>
-              This is the content for the article 1.
-          </p> 
-    `
-    
-};
-
 function  createTemplate(data){
 var title = data.title;
 var date = data.date;
@@ -110,7 +90,7 @@ return htmlTemplate;
 
 }
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'Article-1.html'));
+  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 app.get('/;articlename', function (req, res){
     //article name = article-1
