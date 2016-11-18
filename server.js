@@ -118,12 +118,6 @@ app.get('/;articlename', function (req, res){
     var articlename = req.param.articlename;
   res.send(createTemplate(articles[articlename]));
 });
-app.get('/articletwo', function (req, res) {
-  res.send('Article 2 requested will be served here');
-});
-app.get('/articlethree', function (req, res) {
-  res.send('Article 3 requested will be served here');
-});
 
 
 app.get('/ui/style.css', function (req, res) {
