@@ -121,7 +121,7 @@ app.get('/', function (req, res) {
      
  });
  var names =[];
-app.get('/submit-name',function(req,res){
+app.get('/submit-name',function(req,res){ //URL :/submit-name/name-xxxxx
     var name = req.query.name;
     
     names.push(name);
